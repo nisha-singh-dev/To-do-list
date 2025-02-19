@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+body {
+  background-color: grey;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.input-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 30px;
+}
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  margin-block: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.input-container input[type="text"] {
+  width: 70%;
+}
+.input-container input[type="button"] {
+  background-color: rgb(218, 165, 32);
+  color: white;
+  font-weight: 700;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 15px 24px;
+}
+.input-container input[type="button"]:hover {
+  background-color: rgb(200, 165, 32);
+}
+ul {
+  width: 100%;
+  max-width: 450px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+}
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  border: 0.125px solid #a19f9f;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-block-end: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s;
+  /* align-items: center; */
+}
+ul li:hover {
+  background-color: blanchedalmond;
+}
+ul li p {
+  flex-grow: 1;
+  padding: 2px;
+}
+.btn {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px;
+}
+.delbtn {
+  color: red;
+}
+.editbtn {
+  color: green;
+}
